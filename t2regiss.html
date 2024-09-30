@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Halaman Registrasi</title>
+</head>
+<body>
+    <h2>Halaman Registrasi</h2>
+    <form> 
+        <table border="1" cellpadding="10" cellspacing="0">
+            <tr>
+                <td><label for="name">Nama Lengkap</label></td>
+                <td><input type="text" id="name" placeholder="Masukkan Nama Lengkap" required></td>
+            </tr>
+            <tr>
+                <td><label for="phoneNumber">No Hp</label></td>
+                <td><input type="tel" id="phoneNumber" placeholder="Masukkan No Hp" required></td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Tanggal Lahir</label></td>
+                <td><input type="date" id="birthdate" name="birthdate" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" placeholder="Masukkan Email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Kata Sandi</label></td>
+                <td><input type="password" id="password" placeholder="Masukkan Kata Sandi" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Konfirmasi Kata Sandi</label></td>
+                <td><input type="password" id="confirm-password" placeholder="Konfirmasi Kata Sandi" required></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Unggah Foto</label></td>
+                <td><input type="file" id="photo" name="photo" accept="image/*" required></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit" text>Daftar</button>
+                </td>
+            </tr>
+        </table>
+        <div>
+            Sudah Punya Akun? <a href="">Masuk disini</a>
+        </div>
+    </form>
+</body>
+</html>
+
